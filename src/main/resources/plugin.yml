@@ -1,0 +1,16 @@
+author: Crepez (Kronox)
+description: Adds interdimensional portals and stuff!
+main: de.cubenation.cnportals.CNPortalsPlugin
+name: CNPortals
+version: "${project.version}"
+load: postworld
+api-version: 1.16
+depend:
+  - Bedrock
+  - WorldEdit
+database: false
+commands:
+    portal:
+        description: CNPortals Command
+    ${project.artifactId}:
+        description: CNPortals Settings Command
